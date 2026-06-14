@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password</label><br>
+        <input type="password" placeholder="Enter password">
+
+        <label>Gender</label><br>
+            <input type="radio" name="gender"> Male<br>
+            <input type="radio" name="gender"> Female<br><br>
+
+        <label>Skills</label>
+            <input type="checkbox"> HTML<br>
+            <input type="checkbox"> CSS<br>
+            <input type="checkbox"> Java<br><br>
+
+        <label>Date of Birth</label><br>
+        <input type="date"><br><br>
+
+        <button type ="submit">Register</button>
+
+        </form>
+              </body>
+              </html>
